@@ -1,0 +1,41 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logoImg {
+    width: 60px;
+    height: 60px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.titleHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 44px;
+    line-height: 44px;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 600;
+    font-size: 33px;
+}
+
+.children {
+    display: flex;
+    width: 368px;
+    margin: 0 auto;
+}
