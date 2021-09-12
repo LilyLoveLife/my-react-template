@@ -8,11 +8,10 @@
 import React, { useEffect } from 'react'
 import styles from './index.module.scss'
 
-
-const Index: React.FC<any> = props => {
-    useEffect(() => {
-        console.log('index')
-    }, [])
-    return (<div className={styles.main}>Hello Word ！</div>)
+const Index: React.FC<any> = () => {
+	useEffect(() => {
+		console.log('index')
+	}, [])
+	return <div className={styles.main}>Hello Word ！</div>
 }
 export default Index

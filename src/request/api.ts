@@ -6,7 +6,6 @@
  */
 import Axios from 'request/axios'
 
-
-export const apiLogin = (query: object) => Axios.post('/user/login', query)
+export const apiLogin = (query: any) => Axios.post('/user/login', query)
 
 export const apiGetUserInfo = () => Axios.post('/user/info')

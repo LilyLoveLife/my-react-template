@@ -25,6 +25,11 @@ module.exports = {
     plugins: [],
     // plugins: ['react', '@typescript-eslint', 'plugin:prettier/recommended'],
     rules: {
-        'react/display-name': 'off'
+        'react/display-name': 'off',
+        '@typescript-eslint/no-var-requires': 'off',
+		'@typescript-eslint/no-extra-semi': 'off',
+		'@typescript-eslint/ban-ts-comment': 'off',
+		'@typescript-eslint/no-empty-function': 'off',
+		'@typescript-eslint/no-unused-vars': ['error', { vars: 'all', args: 'after-used' }] //不能有声明后未被使用的变量或参数
     }
 }

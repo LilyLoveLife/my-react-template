@@ -5,6 +5,6 @@
  * @FilePath: /Projects/my-react-template/src/config/config.test.ts
  */
 const testConfig = {
-  API_URL: '/my-server'
-};
+	API_URL: '/my-server'
+}
 export default testConfig

@@ -5,7 +5,7 @@
  * @FilePath: /Projects/my-react-template/src/config/config.prod.ts
  */
 
-  const prodConfig = {
-    API_URL: '/my-server'
-  };
-  export default prodConfig
+const prodConfig = {
+	API_URL: '/my-server'
+}
+export default prodConfig

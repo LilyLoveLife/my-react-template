@@ -6,12 +6,12 @@
  */
 
 import React from 'react'
-import { } from '@ant-design/icons'
+import {} from '@ant-design/icons'
 import styles from './index.module.scss'
 import { PageSize } from 'constants/index'
 
-const List: React.FC<any> = props => {
-    console.log(PageSize)
-    return (<div className={styles.main}></div>)
+const List: React.FC<any> = () => {
+	console.log(PageSize)
+	return <div className={styles.main}></div>
 }
 export default List

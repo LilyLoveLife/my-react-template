@@ -4,4 +4,4 @@
  * @Description: In User Settings Edit
  * @FilePath: /Projects/my-react-template/src/constants/index.ts
  */
- export const PageSize = 10
+export const PageSize = 10

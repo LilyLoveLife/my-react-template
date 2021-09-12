@@ -62,13 +62,11 @@
         "prettier": "^2.2.1"
     },
     "husky": {
-
         "hooks": {
             "pre-commit": "lint-staged"
         }
     },
     "lint-staged": {
-
         "*.{js,jsx,d.ts,tsx,json,css,less}": [
             "prettier --write",
             "eslint --fix"

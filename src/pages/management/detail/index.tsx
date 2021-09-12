@@ -5,11 +5,9 @@
  * @FilePath: /Projects/my-react-template/src/pages/management/detail/index.tsx
  */
 
-
 import React from 'react'
 
-
-const Detail: React.FC<any> = props => {
-    return <div></div>
+const Detail: React.FC<any> = () => {
+	return <div></div>
 }
 export default Detail
